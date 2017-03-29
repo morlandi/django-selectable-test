@@ -29,7 +29,7 @@ Usage
 
     $ python manage.py runserver
 
-then visit::
+then visit:
 
     `<http://127.0.0.1:8000/admin/selectable_test/machine/1f186ea5-2a64-4717-9ec6-86024de2fb2d/change/>`_
 
