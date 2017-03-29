@@ -22,12 +22,14 @@ Manual setup
 Load sample data
 ----------------
 
+Run::
+
     $ python manage.py loaddata sample_data.json
 
 Usage
 -----
 
-::
+Run::
 
     $ python manage.py runserver
 
