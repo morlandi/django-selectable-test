@@ -4,6 +4,8 @@ Purpose
 
 Test **django-selectable** with **django-suit** in a clean environment.
 
+All primary keys are based on UUIDs.
+
 
 Manual setup
 ------------
