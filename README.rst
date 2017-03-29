@@ -22,8 +22,8 @@ Load sample data
 
     $ python manage.py loaddata sample_data.json
 
-Use
----
+Usage
+-----
 
 ::
 
@@ -31,4 +31,13 @@ Use
 
 then visit::
 
-    http://127.0.0.1:8000/admin/selectable_test/machine/1f186ea5-2a64-4717-9ec6-86024de2fb2d/change/
+    `<http://127.0.0.1:8000/admin/selectable_test/machine/1f186ea5-2a64-4717-9ec6-86024de2fb2d/change/>`_
+
+Screenshots
+-----------
+
+.. image:: screenshots/image001.png
+
+.. image:: screenshots/image002.png
+
+.. image:: screenshots/image003.png
