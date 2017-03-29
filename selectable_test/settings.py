@@ -83,7 +83,7 @@ DATABASES = {
        'HOST': 'localhost',
        'NAME': 'selectable_test',
        'USER': 'selectable_test',
-       'PASSWORD': '8ae3b0a0564a0be7',
+       'PASSWORD': 'selectable_test',
    }
 }
 
