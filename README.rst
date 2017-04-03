@@ -14,10 +14,15 @@ Manual setup
 
     $ mkvirtualenv selectable_test
     $ pip install -r requirements.txt
-    $ psql -c "create user selectable_test with encrypted password 'selectable_test'"
-    $ psql -c "create database selectable_test owner selectable_test"
     $ python manage.py migrate
     $ python manage.py createsuperuser --username=admin
+
+Note:
+
+if using Posgresql instead of Sqlite3, do this in advance::
+
+    $ psql -c "create user selectable_test with encrypted password 'selectable_test'"
+    $ psql -c "create database selectable_test owner selectable_test"
 
 Load sample data
 ----------------

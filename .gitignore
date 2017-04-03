@@ -1,6 +1,8 @@
 
 # Created by https://www.gitignore.io/api/python,django,sublimetext
 
+selectable_test.db
+
 ### Django ###
 *.log
 *.pot

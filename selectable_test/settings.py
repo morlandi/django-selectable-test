@@ -76,16 +76,22 @@ WSGI_APPLICATION = 'selectable_test.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
-
 DATABASES = {
-   'default': {
-       'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'HOST': 'localhost',
-       'NAME': 'selectable_test',
-       'USER': 'selectable_test',
-       'PASSWORD': 'selectable_test',
-   }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'selectable_test.db',
+    }
 }
+
+# DATABASES = {
+#     'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'HOST': 'localhost',
+#        'NAME': 'selectable_test',
+#        'USER': 'selectable_test',
+#        'PASSWORD': 'selectable_test',
+#    }
+# }
 
 
 # Password validation
